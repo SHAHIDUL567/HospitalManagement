@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\HospitalManagement.Infrastructure\HospitalManagement.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\HospitalManagement.Services.Model\HospitalManagement.Services.Model.csproj" />
+    <ProjectReference Include="..\HospitalManagement.Model\HospitalManagement.Model.csproj" />
+    <ProjectReference Include="..\HospitalManagement.Shared\HospitalManagement.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
